@@ -1,0 +1,147 @@
+* {
+  /* margin: 0px; */
+  padding: 0px;
+}
+
+
+.entirepage {
+  background-color: rgb(3, 3, 46);
+  height: 200vh;
+}
+
+#cardone {
+  padding: 100px;
+  /* background-color: rgb(17, 17, 82); */
+}
+
+.toppart {
+  background-color:rgb(92, 92, 248);
+  color: rgba(252, 250, 250, 0.884);
+  padding: 30px;
+  width: 25vh;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  border-radius: 10px;
+  height: 40vh;
+}
+
+.image {
+  border: solid;
+  width: 60px;
+  border-radius: 100px;
+  height: 60px;
+  border-width: 2px;
+}
+
+.reportandname {
+  padding-top: 20px;
+}
+
+.report {
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
+margin-bottom: -20px;
+color: rgb(181, 181, 241);
+}
+
+.name1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  color: rgb(248, 246, 246)
+}
+
+.name2 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif; 
+  font-size: 25px;
+  margin-top: -20px;
+  color: rgb(248, 246, 246)
+}
+
+.secondpart {
+  background-color: rgb(17, 17, 82);
+  color: rgba(252, 250, 250, 0.884);
+  padding: 30px;
+  width: 25vh;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 17vh;
+}
+
+
+.daily {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  margin-top: -17px;
+  color: rgb(88, 88, 139);
+}
+
+.weekly {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
+padding-top: 1px;
+}
+
+.monthly {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  padding-top: 1px;
+  color: rgb(88, 88, 139);
+}
+
+#cardtwo {
+  padding: 100px;
+  width: 25vh;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  height: 10vh; 
+}
+
+.topsection {
+  background-color: orange;
+  height: 8vh;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.cards {
+  grid-template-columns: 4px;
+  grid-template-rows: 2px;
+}
+
+.img {
+  padding-left: 110px;
+}
+
+.bottomsection {
+background-color: rgb(17, 17, 82);
+height: 20vh;
+padding: 20px;
+border-radius: 12px;
+padding-bottom: 1px;
+}
+
+.worketc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.hrs {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: white;
+  margin-top: -40px;
+}
+
+.last {
+ color:  rgb(209, 209, 245); 
+ font-size: 11px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin-top: -35px;
+}
