@@ -12,6 +12,8 @@
 #cardone {
   padding: 100px;
   /* background-color: rgb(17, 17, 82); */
+  grid-area: one;
+  margin-right: -150px;
 }
 
 .toppart {
@@ -23,6 +25,7 @@
   padding-top: 30px;
   border-radius: 10px;
   height: 40vh;
+  margin-bottom: -2px;
 }
 
 .image {
@@ -62,11 +65,11 @@ color: rgb(181, 181, 241);
   color: rgba(252, 250, 250, 0.884);
   padding: 30px;
   width: 25vh;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   padding-top: 30px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  height: 17vh;
+  height: 13vh;
 }
 
 
@@ -75,12 +78,14 @@ color: rgb(181, 181, 241);
   font-size: 12px;
   margin-top: -17px;
   color: rgb(88, 88, 139);
+  margin-bottom: -10px;
 }
 
 .weekly {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 12px;
 padding-top: 1px;
+margin-bottom: -10px;
 }
 
 .monthly {
@@ -92,34 +97,76 @@ padding-top: 1px;
 
 #cardtwo {
   padding: 100px;
-  width: 25vh;
-  padding-bottom: 10px;
-  padding-top: 20px;
-  height: 10vh; 
+  width: 33vh;
+  /* padding-bottom: 10px;
+  padding-top: 20px; */
+  height: 10vh;
+  grid-area: two; 
+  margin-left: -30px;
 }
 
 .topsection {
-  background-color: orange;
+  background-color: rgba(255, 151, 110, 0.863);
   height: 8vh;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
 
+.topsection1 {
+  background-color: rgba(114, 209, 253, 0.863);
+  height: 8vh;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px; 
+}
+.topsection2 {
+  background-color: rgba(224, 90, 130, 0.979);
+  height: 8vh;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.topsection3 {
+  background-color: rgba(141, 245, 146, 0.863);
+  height: 8vh;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px; 
+}
+
+.topsection4 {
+  background-color: rgba(144, 29, 238, 0.863);
+  height: 8vh;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px; 
+}
+
+.topsection5 {
+  background-color: rgba(241, 227, 100, 0.863);
+  height: 8vh;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px; 
+}
+
 .cards {
-  grid-template-columns: 4px;
-  grid-template-rows: 2px;
+ display: grid;
+ grid-template-columns: repeat(4);
+ grid-template-rows: repeat(2);
+ grid-template-areas: 'one two three four' 'one five six seven';
+ /* margin: -100px; */
+ justify-content: center;
+
 }
 
 .img {
-  padding-left: 110px;
+  padding-left: 150px;
 }
 
 .bottomsection {
 background-color: rgb(17, 17, 82);
-height: 20vh;
+height: 22vh;
 padding: 20px;
 border-radius: 12px;
 padding-bottom: 1px;
+margin-top: -10px;
 }
 
 .worketc {
@@ -136,7 +183,7 @@ padding-bottom: 1px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
   color: white;
-  margin-top: -40px;
+  margin-top: -30px;
 }
 
 .last {
@@ -144,4 +191,60 @@ padding-bottom: 1px;
  font-size: 11px;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
  margin-top: -35px;
+}
+
+#cardthree {
+  padding: 100px;
+  width: 33vh;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  height: 10vh;
+  grid-area: three;
+  margin-top: 80px;
+  margin-left: -180px;
+}
+
+
+#cardfour {
+  padding: 100px;
+  width: 33vh;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  height: 10vh;
+  grid-area: four;
+  margin-top: 80px;
+  margin-left: -180px;
+}
+
+#cardfive {
+  padding: 100px;
+  width: 33vh;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  height: 10vh;
+  grid-area: five;
+  margin-top: -140px;
+  margin-left: -30px;
+}
+
+#cardsix {
+  padding: 100px;
+  width: 33vh;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  height: 10vh;
+  grid-area: six;
+  margin-top: -140px;
+  margin-left: -180px;
+}
+
+#cardseven {
+  padding: 100px;
+  width: 33vh;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  height: 10vh;
+  grid-area: seven;
+  margin-top: -140px;
+  margin-left: -180px;
 }
